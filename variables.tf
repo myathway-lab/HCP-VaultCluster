@@ -7,7 +7,7 @@ variable "hvn_id" {
 variable "cluster_id" {
   description = "The ID of the HCP Vault cluster."
   type        = string
-  default     = "HCP_vault_cluster"
+  default     = "hcp_vault_cluster"
 }
 
 variable "region" {
