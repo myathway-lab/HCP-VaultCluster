@@ -1,13 +1,13 @@
 variable "hvn_id" {
   description = "The ID of the HCP HVN."
   type        = string
-  default     = "mtlab-hvn"
+  default     = "mt-hcp-hvn"
 }
 
 variable "cluster_id" {
   description = "The ID of the HCP Vault cluster."
   type        = string
-  default     = "mtlab-vault-cluster"
+  default     = "HCP_vault_cluster"
 }
 
 variable "region" {
