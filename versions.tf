@@ -14,7 +14,7 @@ terraform {
 
 provider "vault" {
   address = "http://0.0.0.0:8200"
-  token = var.vault-token
+  token = var.root_token
 }
 
 provider "aws" {
