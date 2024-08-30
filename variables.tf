@@ -27,3 +27,14 @@ variable "tier" {
   type        = string
   default     = "dev"
 }
+
+
+variable "client_id" {
+  type    = string
+  default = "client_id"
+}
+
+variable "client_secret" {
+  type    = string
+  default = "client_secret"
+}
